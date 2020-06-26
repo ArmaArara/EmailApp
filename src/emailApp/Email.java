@@ -30,7 +30,7 @@ public class Email {
         email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySuffix;
     }
 
-
+//LALALALALALA
     private String setDepartment() {
         System.out.println("New worker: " + firstName + "Department codes:\n1 for Sales\n2 for Development\n3 for Accounting\n0 for none\nEnter department code: ");
         Scanner in = new Scanner(System.in);
